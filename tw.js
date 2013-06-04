@@ -17,7 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  (function($) {
     $.fn.db = new Array();
     $.fn.hearbeatTime = 5000;
-    $.fn.angle = 9;
+    $.fn.angle = -9;
     $.fn.twrequest = 'rpp=90&q=' + $.URLEncode($.query.get('twrequest'));
     $.fn.hashtag = $.query.get('hashtag');
     $.fn.img = $.query.get('img');
